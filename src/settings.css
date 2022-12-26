@@ -1,0 +1,41 @@
+.counter_settings_box {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.counter_settings_box p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.counter_settings_box button {
+  border: none;
+  background: #15d798;
+  border-radius: 1000px;
+  padding: 20px 45px;
+  margin-top: 40px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 20px/1 "Open Sans", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.counter_settings_box_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+  font-size: 20px;
+}
